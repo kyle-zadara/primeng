@@ -650,7 +650,7 @@ var Table = /** @class */ (function () {
             rangeEnd = rowIndex;
         }
         for (var i = rangeStart; i <= rangeEnd; i++) {
-            var rangeRowData = this.value[i];
+            var rangeRowData = this.filteredValue ? this.filteredValue[i] : this.value[i];
             if (!this.isSelected(rangeRowData)) {
                 this._selection = this.selection.concat([rangeRowData]);
                 var dataKeyValue = this.dataKey ? String(this.objectUtils.resolveFieldData(rangeRowData, this.dataKey)) : null;
