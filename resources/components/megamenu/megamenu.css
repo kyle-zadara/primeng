@@ -18,10 +18,6 @@
     text-decoration: none;
 }
 
-.ui-megamenu .ui-menuitem-icon {
-    margin-right: .25em;
-}
-
 .ui-megamenu-panel {
     display: none;
     position: absolute;

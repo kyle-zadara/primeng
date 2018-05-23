@@ -25,10 +25,6 @@
     text-decoration: none;
 }
 
-.ui-menubar .ui-menuitem-icon {
-    margin-right: .25em;
-}
-
 .ui-menubar .ui-menubar-root-list {
     display: inline-block;
 }

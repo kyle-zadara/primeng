@@ -28,14 +28,9 @@
     position: relative;
 }
 
-.ui-contextmenu .ui-menuitem-icon {
-    margin-right: .25em;
-}
-
 .ui-contextmenu .ui-menuitem {
     position: relative;
 }
-
 
 .ui-contextmenu .ui-menuitem-link .ui-submenu-icon {
     position: absolute;
